@@ -1,4 +1,6 @@
-streamlit==1.29.0
-   pandas==2.1.3
-   numpy==1.26.2
-   plotly==5.18.0
+cat > requirements.txt << 'EOF'
+gradio
+pandas
+numpy
+plotly
+EOF
